@@ -11,5 +11,6 @@
   "transform": {
     "^.+\\.jsx?$": "babel-jest",
     "^.+\\.svg$": "jest-transformer-svg"
-  }
+  },
+  "testPathIgnorePatterns": ["<rootDir>/__tests__/"]
 }

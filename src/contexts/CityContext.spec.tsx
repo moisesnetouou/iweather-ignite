@@ -15,7 +15,6 @@ describe("Context: CityContext", ()=> {
       longitude: 456
     })))
 
-    console.log(result)
 
     expect(result.current.city?.name).toBe("São Paulo")
   })

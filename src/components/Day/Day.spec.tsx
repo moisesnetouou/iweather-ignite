@@ -7,7 +7,7 @@ describe("Component: Day", () => {
     render(
       <Day 
         data={{
-          day: "18/07",
+          day: "19/07",
           min: "30ºc",
           max: "34ºc",
           icon: clearDay,
