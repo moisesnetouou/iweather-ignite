@@ -12,5 +12,15 @@
     "^.+\\.jsx?$": "babel-jest",
     "^.+\\.svg$": "jest-transformer-svg"
   },
-  "testPathIgnorePatterns": ["<rootDir>/__tests__/"]
+  "testPathIgnorePatterns": ["<rootDir>/__tests__/"],
+  "collectCoverageFrom": [
+    "./src/**/*.{ts,tsx}",
+    "!./src/**/styles.ts"
+  ],
+  "coveragePathIgnorePatterns": [
+    "./src/@types",
+    "<rootDir>/__tests__/",
+    "./src/styles",
+    "./src/libs/dayjs"
+  ]
 }
